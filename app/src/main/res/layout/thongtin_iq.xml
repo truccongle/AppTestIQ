@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/thongtiniq"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thông tin IQ"
+        android:textColor="#f2eeee"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Giới Thiệu"
+        android:textColor="#f2eeee"
+        android:id="@+id/textView20" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Trong số các phương pháp khác nhau có mục đích dùng để đo trí thông minh thì phương pháp phổ biến nhất là dùng bài kiểm tra IQ(Chỉ số thông minh-Intellegence Quotient). Đây là hình thức kiểm tra đã được tiêu chuẩn hóa, được thiết kế nhằm đo trí thông minh của con người như sự khác biệt về học thức. IQ là phương pháp đo mức độ thông minh liên quan đến độ tuổi. Từ “quotient” (trong từ viết tắt IQ) có nghĩa là chia một lượng cho một lượng, và việc xác định trí thông minh là năng lực trí tuệ hay độ nhanh nhạy của bộ não. Thông thường thì các bài kiểm tra IQ gồm có nhiều loại câu hỏi có tính chất phân bậc trình độ, mỗi câu đều được tiêu chuẩn hóa bằng việc thử nghiệm câu hỏi trên một số lượng lớn các cá nhân nhằm thiết lập thang điểm số IQ trung bình cho mỗi bài kiểm tra là 100. Thực tế cho thấy năng lực trí tuệ của một con người thường phát triển ở một tốc độ nhất định cho đến độ tuổi khoảng 13, sau độ tuổi này sự phát triển trí não trở nên giảm dần, ngoài tuổi 18 thì rất ít hoặc không có sự cải thiện trí thông minh nào. Khi đo chỉ số IQ của một đứa trẻ, người ta thường dùng bài kiểm tra IQ đã được tiêu chuẩn hóa, với  điểm đạt trung bình được quy cho từng nhóm tuổi. Ví dụ một đứa trẻ 10 tuổi mà đạt được kết quả mà đáng lẽ ra đứa trẻ 12 tuổi mới đạt được thì đứa trẻ 10 tuổi có chỉ số thông minh là 120, hay bằng 12/10 x 100:"
+
+            android:id="@+id/textViewThongTinIQ1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewHAIQ1"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/textViewThongTinIQ1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/congthuc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Vì sau tuổi 18, người ta thấy ít hoặc không có sự cải thiện về trí thông minh nào nên người lớn cần phải được kiểm tra bằng bài thi IQ có điểm trung bình là 100. Cũng giống như nhiều cách phân bổ một bài kiểm tra khác trên thực tế, sự phân bổ bài thi IQ có dạng như hình của một chiếc chuông thông thường (xem hình dưới), trong hình này điểm đạt trung bình là 100 và các tỷ lệ tương tự xảy ra ở cả trên và dưới giá trị chuẩn này. Có nhiều loại bài kiểm tra trí thông minh khác nhau, ví dụ như loại bài Cattell, Stanford-Binet và Wechsler, và mỗi loại đều có thang đánh giá trí thông minh khác nhau. Stanford-Binet đánh giá rất cao bằng các câu hỏi liên quan đến khả năng ngôn ngữ và được dùng rộng rãi ở Mỹ. Loại bài Weschler gồm có hai thang đánh giá riêng biệt về ngôn ngữ và khả năng diễn đạt với mỗi mức IQ.  Đối với thang đánh giá Stanford-Binet thì có tới một nửa số người tham gia kiểm tra đạt điểm IQ từ 90 đến 110, 25% đạt điểm trên 110, 11% đạt điểm trên 120, 3% đạt điểm trên 130 và 0,6% đạt điểm trên 140.   "
+            android:id="@+id/textViewThongTinIQ2"
+
+            android:layout_below="@+id/imageViewHAIQ1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:autoText="false" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewHAIQ2"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/textViewThongTinIQ2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bieudo_thongtin" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mặc dù chính bài kiểm tra IQ chúng ta cứ quan tâm nhiều đến nhưng cũng phải hiểu rằng các bài kiểm tra IQ chỉ là một hình thức kiểm tra đo nghiệm tinh thần. Nội dung của loại bài kiểm tra này có thể bao chùm hầu hết các khía cạnh về biểu cảm hoặc trí tuệ, bao gồm cá tính, thái độ, trí thông minh hay biểu cảm. Những bài kiểm tra đo nghiệm tinh thần về cơ bản cũng chỉ là các dụng cụ dùng đề đánh giá trí não. Những bài kiểm tra về thái độ cũng được coi là những bài kiểm tra IQ về khả năng nhận biết. Loại bài kiểm tra này được thiết kế để kiểm tra khả năng nắm bắt nhanh chóng của bạn trong điều kiện thời gian hạn hẹp.  Có nhiều loại bài kiểm tra đánh giá khác nhau. Tuy nhiên, một bài kiểm tra điển hình gồm có 3 phần, mỗi phần đánh giá một khả năng khác nhau, thường bao gồm đánh giá khả năng lập luận ngôn ngữ, xử lý con số và  hình học, hoặc tư duy hình học không gian. Điều quan trọng là phải rèn luyện trí não của chúng ta một cách thường xuyên. Ví dụ, chúng ta càng luyện tập nhiều bài kiểm tra về ý thức ngôn ngữ thì chúng ta càng làm tăng khả năng hiểu nghĩa của từ và dùng chúng một cách hiệu quả; chúng ta càng luyện tập các bài toán chúng ta càng trở nên tự tin hơn khi làm việc với các con số, khả năng giải chính xác các bài toán số học càng tốt hơn và chúng ta sẽ giải nhanh hơn. Thời gian giới hạn đối với mỗi bài kiểm tra là 90 phút. Cho phép dùng máy tính bỏ túi để hỗ trợ giải các bài toán số học. Hãy sử dụng bảng dưới đây để đánh giá kết quả của bạn: "
+            android:id="@+id/textViewThongTinIQ3"
+            android:layout_marginTop="41dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/imageViewHAIQ2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewHAIQ3"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textViewThongTinIQ3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iqthongtin" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>

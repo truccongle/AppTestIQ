@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/test"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kiểm Tra IQ"
+        android:textColor="#f2eeee"
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Test"
+        android:textColor="#f2eeee"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:textColor="#f2eeee"
+        android:id="@+id/tvDongho"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1/10"
+        android:textColor="#f2eeee"
+        android:id="@+id/textCauHoiSo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Câu hỏi"
+            android:textColor="#f2eeee"
+            android:id="@+id/textViewCauHoi"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/buttonDaA"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/textViewCauHoi"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/buttonDaB"
+            android:layout_below="@+id/buttonDaA"
+            android:layout_alignLeft="@+id/buttonDaA"
+            android:layout_alignStart="@+id/buttonDaA" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/buttonDaC"
+            android:layout_below="@+id/buttonDaB"
+            android:layout_alignLeft="@+id/buttonDaB"
+            android:layout_alignStart="@+id/buttonDaB" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/buttonDaD"
+            android:layout_below="@+id/buttonDaC"
+            android:layout_alignLeft="@+id/buttonDaC"
+            android:layout_alignStart="@+id/buttonDaC"
+            android:layout_alignRight="@+id/buttonDaC"
+            android:layout_alignEnd="@+id/buttonDaC" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Đáp án A"
+
+            android:id="@+id/textViewDaA"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            android:layout_above="@+id/buttonDaB"
+            android:layout_toRightOf="@+id/buttonDaA"
+            android:layout_toEndOf="@+id/buttonDaA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Đáp án B"
+
+            android:id="@+id/textViewDaB"
+            android:layout_above="@+id/buttonDaC"
+            android:layout_alignLeft="@+id/textViewDaA"
+            android:layout_alignStart="@+id/textViewDaA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" Đáp án C"
+
+            android:id="@+id/textViewDaC"
+            android:layout_alignBottom="@+id/buttonDaC"
+            android:layout_alignLeft="@+id/textViewDaB"
+            android:layout_alignStart="@+id/textViewDaB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Đáp án D"
+
+            android:id="@+id/textViewDaD"
+            android:layout_alignBottom="@+id/buttonDaD"
+            android:layout_alignLeft="@+id/textViewDaC"
+            android:layout_alignStart="@+id/textViewDaC" />
+
+    </RelativeLayout>
+</LinearLayout>
